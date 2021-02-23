@@ -22968,7 +22968,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J1" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC_RIGHT_ANGLE"/>
 <part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
-<part name="LOGO1" library="SparkFun-Aesthetics" deviceset="QWIIC_LOGO" device="_3MM"/>
+<part name="LOGO1" library="SparkFun-Aesthetics" deviceset="QWIIC_LOGO" device="_4MM" value="QWIIC_LOGO_4MM"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="J2" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC_RIGHT_ANGLE"/>
@@ -22982,7 +22982,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="26.162" y="175.26" size="2.54" layer="94" font="vector">Accelerometer - LSM6DS0</text>
+<text x="56.642" y="177.8" size="2.54" layer="94" font="vector" align="center">Accelerometer - LSM6DS0</text>
 <text x="245.872" y="121.666" size="1.778" layer="97" font="vector" rot="R180" align="top-left">If downstream SPI devices are
 hosted by the LSM6DSO, release
 SCx and SDx from ground by
@@ -23000,18 +23000,19 @@ MODE3:  AUX SPI mode
 <wire x1="0" y1="86.36" x2="114.3" y2="86.36" width="0.2032" layer="97" style="longdash"/>
 <wire x1="114.3" y1="86.36" x2="248.92" y2="86.36" width="0.2032" layer="97" style="longdash"/>
 <wire x1="114.3" y1="185.42" x2="114.3" y2="86.36" width="0.2032" layer="97" style="longdash"/>
-<text x="50.8" y="149.86" size="1.27" layer="97" font="vector">VDD Range: 
-VDDIO Range: </text>
+<text x="45.466" y="150.114" size="1.27" layer="97" font="vector">VDD Range: 1.71V - 3.6V
+VDDIO Range: 1.62V - 3.6V</text>
 <text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <text x="215.646" y="152.146" size="1.778" layer="97" font="vector">0x6B (Default)
 0x6A 
 Cut trace and leave
 bottom unconnected
 if using SPI.</text>
-<text x="165.1" y="177.8" size="2.54" layer="94" font="vector">Jumpers</text>
+<text x="177.8" y="180.34" size="2.54" layer="94" font="vector" align="center">Jumpers</text>
 <text x="129.54" y="134.62" size="1.778" layer="97" font="vector">Cut trace to
 disconnect Power
 LED.</text>
+<text x="116.84" y="78.74" size="2.54" layer="94" font="vector" align="center">Connectors</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
