@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -226,13 +226,13 @@
 <pin name="GND@7" x="-12.7" y="-2.54" length="short"/>
 <pin name="INT1" x="-12.7" y="5.08" length="short"/>
 <pin name="INT2" x="-12.7" y="2.54" length="short"/>
-<pin name="SDO_AUX" x="12.7" y="-7.62" length="short" rot="R180"/>
-<pin name="OCS_AUX" x="12.7" y="-5.08" length="short" rot="R180"/>
+<pin name="SDOX" x="12.7" y="-7.62" length="short" rot="R180"/>
+<pin name="OCSX" x="12.7" y="-5.08" length="short" rot="R180"/>
 <pin name="SCL" x="12.7" y="7.62" length="short" rot="R180"/>
 <pin name="SCX" x="12.7" y="-2.54" length="short" rot="R180"/>
 <pin name="SDA" x="12.7" y="10.16" length="short" rot="R180"/>
 <pin name="SDO/SA0" x="12.7" y="5.08" length="short" rot="R180"/>
-<pin name="SDX" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="SDIX" x="12.7" y="0" length="short" rot="R180"/>
 <pin name="VDD" x="-12.7" y="10.16" length="short"/>
 <pin name="VDDIO" x="-12.7" y="7.62" length="short"/>
 <text x="-10.16" y="13.208" size="1.778" layer="95" font="vector">&gt;Name</text>
@@ -252,13 +252,13 @@
 <connect gate="G$1" pin="GND@7" pad="7"/>
 <connect gate="G$1" pin="INT1" pad="4"/>
 <connect gate="G$1" pin="INT2" pad="9"/>
-<connect gate="G$1" pin="OCS_AUX" pad="10"/>
+<connect gate="G$1" pin="OCSX" pad="10"/>
 <connect gate="G$1" pin="SCL" pad="13"/>
 <connect gate="G$1" pin="SCX" pad="3"/>
 <connect gate="G$1" pin="SDA" pad="14"/>
+<connect gate="G$1" pin="SDIX" pad="2"/>
 <connect gate="G$1" pin="SDO/SA0" pad="1"/>
-<connect gate="G$1" pin="SDO_AUX" pad="11"/>
-<connect gate="G$1" pin="SDX" pad="2"/>
+<connect gate="G$1" pin="SDOX" pad="11"/>
 <connect gate="G$1" pin="VDD" pad="8"/>
 <connect gate="G$1" pin="VDDIO" pad="5"/>
 </connects>
