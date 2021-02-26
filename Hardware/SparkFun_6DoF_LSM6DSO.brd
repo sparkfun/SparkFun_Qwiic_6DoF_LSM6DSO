@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -192,31 +192,31 @@
 <wire x1="0" y1="0" x2="25.4" y2="0" width="0.2032" layer="20"/>
 <wire x1="25.4" y1="0" x2="25.4" y2="25.4" width="0.2032" layer="20"/>
 <text x="24.139525" y="11.420475" size="0.8128" layer="16" font="vector" ratio="22" rot="MR90">v10</text>
-<wire x1="14.6812" y1="17.046575" x2="16.5862" y2="17.046575" width="0.254" layer="21"/>
-<wire x1="16.0782" y1="16.538575" x2="16.0782" y2="17.681575" width="0.254" layer="21" curve="-180"/>
-<wire x1="16.0782" y1="17.681575" x2="15.8242" y2="17.808575" width="0.254" layer="21"/>
-<wire x1="16.0782" y1="17.681575" x2="15.9512" y2="17.427575" width="0.254" layer="21"/>
-<wire x1="14.6812" y1="17.046575" x2="14.9352" y2="16.792575" width="0.254" layer="21"/>
-<wire x1="14.6812" y1="17.046575" x2="14.9352" y2="17.300575" width="0.254" layer="21"/>
-<wire x1="17.814925" y1="13.98905" x2="17.814925" y2="15.76705" width="0.254" layer="21"/>
-<wire x1="18.449925" y1="15.38605" x2="17.179925" y2="15.38605" width="0.254" layer="21" curve="-180"/>
-<wire x1="17.179925" y1="15.38605" x2="17.052925" y2="15.13205" width="0.254" layer="21"/>
-<wire x1="17.179925" y1="15.38605" x2="17.408525" y2="15.25905" width="0.254" layer="21"/>
-<wire x1="17.814925" y1="13.98905" x2="18.068925" y2="14.24305" width="0.254" layer="21"/>
-<wire x1="17.814925" y1="13.98905" x2="17.560925" y2="14.24305" width="0.254" layer="21"/>
-<wire x1="18.094325" y1="14.26845" x2="17.535525" y2="14.26845" width="0.254" layer="21"/>
-<wire x1="17.408525" y1="15.25905" x2="17.052925" y2="15.13205" width="0.254" layer="21"/>
-<wire x1="15.8242" y1="17.808575" x2="15.9512" y2="17.427575" width="0.254" layer="21"/>
-<wire x1="14.9352" y1="17.300575" x2="14.9352" y2="16.792575" width="0.254" layer="21"/>
-<text x="16.398875" y="13.843" size="1.016" layer="21" font="vector" ratio="15" rot="SR0">Y</text>
-<text x="15.287625" y="15.27175" size="1.016" layer="21" font="vector" ratio="15" rot="SR0">X</text>
-<text x="17.033875" y="17.891125" size="1.016" layer="21" font="vector" ratio="15" rot="SR0">Z</text>
-<wire x1="18.14195" y1="18.043525" x2="18.475325" y2="18.09115" width="0.254" layer="21"/>
-<wire x1="18.14195" y1="18.043525" x2="18.26895" y2="17.73555" width="0.254" layer="21"/>
-<wire x1="18.26895" y1="17.73555" x2="18.475325" y2="18.09115" width="0.254" layer="21"/>
-<wire x1="18.272125" y1="17.96415" x2="18.678525" y2="16.35125" width="0.254" layer="21" curve="-100"/>
-<circle x="17.8181" y="16.99895" radius="0.127" width="0.254" layer="21"/>
-<circle x="17.8181" y="16.99895" radius="0.5334" width="0.254" layer="21"/>
+<wire x1="14.7066" y1="16.690975" x2="16.6116" y2="16.690975" width="0.254" layer="21"/>
+<wire x1="16.1036" y1="16.182975" x2="16.1036" y2="17.325975" width="0.254" layer="21" curve="-180"/>
+<wire x1="16.1036" y1="17.325975" x2="15.8496" y2="17.452975" width="0.254" layer="21"/>
+<wire x1="16.1036" y1="17.325975" x2="15.9766" y2="17.071975" width="0.254" layer="21"/>
+<wire x1="14.7066" y1="16.690975" x2="14.9606" y2="16.436975" width="0.254" layer="21"/>
+<wire x1="14.7066" y1="16.690975" x2="14.9606" y2="16.944975" width="0.254" layer="21"/>
+<wire x1="17.840325" y1="13.63345" x2="17.840325" y2="15.41145" width="0.254" layer="21"/>
+<wire x1="18.475325" y1="15.03045" x2="17.205325" y2="15.03045" width="0.254" layer="21" curve="-180"/>
+<wire x1="17.205325" y1="15.03045" x2="17.078325" y2="14.77645" width="0.254" layer="21"/>
+<wire x1="17.205325" y1="15.03045" x2="17.433925" y2="14.90345" width="0.254" layer="21"/>
+<wire x1="17.840325" y1="13.63345" x2="18.094325" y2="13.88745" width="0.254" layer="21"/>
+<wire x1="17.840325" y1="13.63345" x2="17.586325" y2="13.88745" width="0.254" layer="21"/>
+<wire x1="18.119725" y1="13.91285" x2="17.560925" y2="13.91285" width="0.254" layer="21"/>
+<wire x1="17.433925" y1="14.90345" x2="17.078325" y2="14.77645" width="0.254" layer="21"/>
+<wire x1="15.8496" y1="17.452975" x2="15.9766" y2="17.071975" width="0.254" layer="21"/>
+<wire x1="14.9606" y1="16.944975" x2="14.9606" y2="16.436975" width="0.254" layer="21"/>
+<text x="16.424275" y="13.4874" size="1.016" layer="21" font="vector" ratio="15" rot="SR0">Y</text>
+<text x="15.313025" y="14.91615" size="1.016" layer="21" font="vector" ratio="15" rot="SR0">X</text>
+<text x="17.059275" y="17.535525" size="1.016" layer="21" font="vector" ratio="15" rot="SR0">Z</text>
+<wire x1="18.16735" y1="17.687925" x2="18.500725" y2="17.73555" width="0.254" layer="21"/>
+<wire x1="18.16735" y1="17.687925" x2="18.29435" y2="17.37995" width="0.254" layer="21"/>
+<wire x1="18.29435" y1="17.37995" x2="18.500725" y2="17.73555" width="0.254" layer="21"/>
+<wire x1="18.297525" y1="17.60855" x2="18.703925" y2="15.99565" width="0.254" layer="21" curve="-100"/>
+<circle x="17.8435" y="16.64335" radius="0.127" width="0.254" layer="21"/>
+<circle x="17.8435" y="16.64335" radius="0.5334" width="0.254" layer="21"/>
 <wire x1="19.116675" y1="9.2948125" x2="21.021675" y2="9.2948125" width="0.254" layer="22"/>
 <wire x1="20.513675" y1="8.7868125" x2="20.513675" y2="9.9298125" width="0.254" layer="22" curve="-180"/>
 <wire x1="20.513675" y1="9.9298125" x2="20.259675" y2="10.0568125" width="0.254" layer="22"/>
@@ -7926,7 +7926,6 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <via x="12.6746" y="3.6576" extent="1-16" drill="0.3048"/>
 <via x="16.8402" y="6.4262" extent="1-16" drill="0.3048"/>
 <via x="16.8656" y="8.8138" extent="1-16" drill="0.3048"/>
-<via x="18.1102" y="14.5796" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="VDD">
 <contactref element="C3" pad="1"/>
@@ -8053,8 +8052,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="17.0053" y1="21.9202" x2="17.0053" y2="20.5486" width="0.254" layer="16"/>
 <wire x1="16.9799" y1="20.5232" x2="16.9799" y2="19.9644" width="0.254" layer="1"/>
 <wire x1="16.9799" y1="19.9644" x2="16.383" y2="19.3675" width="0.254" layer="1"/>
-<wire x1="16.383" y1="19.3675" x2="16.383" y2="16.256" width="0.254" layer="1"/>
-<wire x1="16.383" y1="16.256" x2="16.383" y2="13.8684" width="0.254" layer="1"/>
+<wire x1="16.383" y1="19.3675" x2="16.383" y2="13.8684" width="0.254" layer="1"/>
 <wire x1="17.0053" y1="21.9202" x2="17.0053" y2="22.733" width="0.254" layer="16"/>
 <wire x1="17.0053" y1="22.733" x2="16.51" y2="23.2283" width="0.254" layer="16"/>
 <wire x1="16.51" y1="23.2283" x2="16.51" y2="24.13" width="0.254" layer="16"/>
@@ -8215,12 +8213,13 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <signal name="N$1">
 <contactref element="ADDR" pad="3"/>
 <contactref element="R5" pad="1"/>
-<via x="17.1704" y="14.605" extent="1-16" drill="0.3048"/>
-<wire x1="17.1704" y1="14.605" x2="17.1704" y2="16.3068" width="0.254" layer="1"/>
-<wire x1="17.43075" y1="13.7414" x2="17.1704" y2="14.00175" width="0.254" layer="16"/>
-<wire x1="17.1704" y1="14.605" x2="17.1704" y2="14.00175" width="0.254" layer="16"/>
-<wire x1="17.1704" y1="16.3068" x2="17.946" y2="17.0824" width="0.254" layer="1"/>
-<wire x1="17.946" y1="17.0824" x2="20.32" y2="17.0824" width="0.254" layer="1"/>
+<via x="17.6022" y="14.605" extent="1-16" drill="0.3048"/>
+<wire x1="17.6022" y1="14.605" x2="17.6022" y2="16.3322" width="0.254" layer="1"/>
+<wire x1="17.6022" y1="14.605" x2="17.6022" y2="13.91285" width="0.254" layer="16"/>
+<wire x1="17.43075" y1="13.7414" x2="17.6022" y2="13.91285" width="0.254" layer="16"/>
+<wire x1="17.6022" y1="16.3322" x2="18.3778" y2="17.1078" width="0.254" layer="1"/>
+<wire x1="20.2946" y1="17.1078" x2="18.3778" y2="17.1078" width="0.254" layer="1"/>
+<wire x1="20.2946" y1="17.1078" x2="20.32" y2="17.0824" width="0.254" layer="1"/>
 </signal>
 <signal name="SDO_AUX">
 <contactref element="U1" pad="11"/>
