@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -7831,9 +7831,10 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="PROD_ID" value="CONN-13694" x="5.08" y="12.7" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="1.778" y="14.351" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="D1" library="SparkFun-LED" package="LED-0603" value="" x="24.4094" y="17.9324" smashed="yes" rot="R90">
+<element name="D1" library="SparkFun-LED" package="LED-0603" value="RED" x="24.4094" y="17.9324" smashed="yes" rot="R90">
 <attribute name="NAME" x="23.7744" y="17.9324" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="25.0444" y="17.9324" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+<attribute name="PROD_ID" value="DIO-00819" x="24.4094" y="17.9324" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="RED" x="25.0444" y="17.9324" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="R4" library="SparkFun-Resistors" package="0603" value="1k" x="22.8092" y="17.9832" smashed="yes" rot="R90">
 <attribute name="NAME" x="22.0472" y="17.9832" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
