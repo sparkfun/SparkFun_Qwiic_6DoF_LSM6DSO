@@ -1,7 +1,7 @@
 SparkFun Qwiic 6 Degrees of Freedom Breakout - LSM6DSO
 ========================================
 
-[![SparkFun Qwiic 6 Degrees of Freedom Breakout - LSM6DSO](https://cdn.sparkfun.com/assets/parts/1/7/2/4/2/18020-SparkFun_6_Degrees_of_Freedom_Breakout_-_LSM6DSO__Qwiic_-01.jpg)](https://cdn.sparkfun.com/assets/parts/1/7/2/4/2/18020-SparkFun_6_Degrees_of_Freedom_Breakout_-_LSM6DSO__Qwiic_-01.jpg)
+[![SparkFun Qwiic 6 Degrees of Freedom Breakout - LSM6DSO](https://cdn.sparkfun.com/assets/parts/1/7/2/4/2/18020-SparkFun_6_Degrees_of_Freedom_Breakout_-_LSM6DSO__Qwiic_-01.jpg)](https://www.sparkfun.com/products/18020)
 
 [*SparkFun Qwiic 6 Degrees of Freedom Breakout - LSM6DSO (SEN-18020)*](https://www.sparkfun.com/products/18020)
 
