@@ -7486,9 +7486,29 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
-<library name="temp">
+<library name="SparkFun-Sensors">
+<description>&lt;h3&gt;SparkFun Sensors&lt;/h3&gt;
+This library contains sensors- accelerometers, gyros, compasses, magnetometers, light sensors, imagers, temp sensors, etc.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application.
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="LGA14L">
+<description>&lt;p&gt;Physical Chracteristics&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2.5mm x 3mm Package size&lt;/li&gt;
+&lt;li&gt;14 pins&lt;/li&gt;
+&lt;li&gt;0.5mm pitch&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
 <wire x1="-1.5" y1="-1.25" x2="1.5" y2="-1.25" width="0" layer="51"/>
 <wire x1="1.5" y1="-1.25" x2="1.5" y2="1.25" width="0" layer="51"/>
 <wire x1="1.5" y1="1.25" x2="-1.5" y2="1.25" width="0" layer="51"/>
@@ -7850,7 +7870,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$14" library="bot" package="#0X6B#11" value="" x="14.8082" y="13.2842" smashed="yes" rot="MR0"/>
 <element name="U$25" library="bot" package="#I2C#11" value="" x="12.827" y="8.4582" smashed="yes" rot="MR0"/>
 <element name="U$28" library="top" package="PWR8" value="" x="21.6408" y="18.034" smashed="yes" rot="R90"/>
-<element name="U1" library="temp" package="LGA14L" value="LSM6DS0" x="12.7" y="12.7" smashed="yes" rot="R180">
+<element name="U1" library="SparkFun-Sensors" package="LGA14L" value="LSM6DS0" x="12.7" y="12.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="14.057" y="10.928" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
 <attribute name="PROD_ID" value="IC-15837" x="12.7" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="14.311" y="15.091" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>

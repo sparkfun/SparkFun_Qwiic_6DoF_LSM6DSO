@@ -21908,9 +21908,29 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="temp">
+<library name="SparkFun-Sensors">
+<description>&lt;h3&gt;SparkFun Sensors&lt;/h3&gt;
+This library contains sensors- accelerometers, gyros, compasses, magnetometers, light sensors, imagers, temp sensors, etc.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application.
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="LGA14L">
+<description>&lt;p&gt;Physical Chracteristics&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2.5mm x 3mm Package size&lt;/li&gt;
+&lt;li&gt;14 pins&lt;/li&gt;
+&lt;li&gt;0.5mm pitch&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
 <wire x1="-1.5" y1="-1.25" x2="1.5" y2="-1.25" width="0" layer="51"/>
 <wire x1="1.5" y1="-1.25" x2="1.5" y2="1.25" width="0" layer="51"/>
 <wire x1="1.5" y1="1.25" x2="-1.5" y2="1.25" width="0" layer="51"/>
@@ -21998,7 +22018,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LSM6DS0" prefix="U">
+<deviceset name="LSM6DSO" prefix="U">
+<description>&lt;p&gt;The LSM6DSO is a system-in-package featuring a high-performance 3-axis digital accelerometer and 3-axis
+digital gyroscope.&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="LSM6DS0" x="0" y="0"/>
 </gates>
@@ -22088,7 +22110,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="LED" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="U1" library="temp" deviceset="LSM6DS0" device="" value="LSM6DS0"/>
+<part name="U1" library="SparkFun-Sensors" deviceset="LSM6DSO" device="" value="LSM6DS0"/>
 <part name="STANDOFF4" library="SparkFun-Hardware" deviceset="STAND-OFF" device="TIGHT"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
 </parts>
